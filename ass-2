@@ -1,0 +1,21 @@
+n=int(input("enter a value:"))
+l=[]
+t=[]
+c=0
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in range(n):
+    if l[i]!=0:
+        t.append(l[i])
+        c=c+1
+print(c)        
+print(t)
+output-
+enter a value:4
+1
+0
+2
+3
+3
+[1,2,3]
