@@ -1,0 +1,20 @@
+n=int(input("enter a value:"))
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in range(n): 
+    if l[i]>0:
+        t.append(l[i])
+for i in range(n):
+    if l[i]<0:
+        t.append(l[i])
+print(t) 
+output-
+enter a value 4
+3
+-4
+5
+6
+[3,5,6,-4]
